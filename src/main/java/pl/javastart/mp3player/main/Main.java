@@ -17,6 +17,7 @@ public class Main extends Application {
     public void start(Stage stage) throws Exception {
         Pane mainPane = FXMLLoader.load(getClass().getResource("/fxml/mainPane.fxml"));
         Scene scene = new Scene(mainPane);
+        stage.setScene(scene);
         stage.setTitle("MP3 PLAYER");
         stage.show();
     }
